@@ -264,3 +264,92 @@ h2 {
     color: #666;
     text-align: center;
 }
+
+/* Halaman Login */
+.login-container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4a90e2;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+.form-input:focus {
+    border-color: #4a90e2;
+    background-color: #fff;
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: linear-gradient(to right, #4a90e2, #3975d8);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.login-btn:hover {
+    background: linear-gradient(to right, #3975d8, #285e8e);
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.signup-link {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #3975d8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
