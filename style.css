@@ -18,3 +18,74 @@ body.login-page {
     height: 100vh;
     background: linear-gradient(to right, #4a90e2, #3975d8);
 }
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3975d8;
+    padding: 10px 20px;
+    color: white;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-form {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons .icon {
+    width: 30px;
+}
+
+.profil {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.login-btn-inline {
+    padding: 6px 12px;
+    background-color: #ffffff;
+    color: #3975d8;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-btn-inline:hover {
+    background-color: #ffffff;
+    color: #285e8e;
+    border-color: #285e8e;
+}
